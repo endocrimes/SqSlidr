@@ -1,0 +1,191 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+body {
+	line-height: 1;
+	color: black;
+	background-color: white;
+}
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+/* HTML5 tags */
+header, section, footer,
+aside, nav, article, figure {
+	display: block;
+}
+
+/*===================*/
+/*=== Main Styles ===*/
+/*===================*/
+body {
+	font: 14px/22px "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+	color: #535253;
+	background: #353535;
+}
+
+a, a:visited {
+	color: #50A9CA;;
+	text-decoration: none;
+}
+a:hover, a:active {
+	color: #3690B1;
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.2;
+	margin-bottom: 0.6em;
+}
+h1 {
+	font-size: 2.2em;
+}
+h2 {
+	font-size: 1.9em;
+}
+h3 {
+	font-size: 1.7em;
+}
+h4 {
+	font-size: 1.5em;
+}
+h5 {
+	font-size: 1.3em;
+}
+h6 {
+	font-size: 1.2em;
+}
+p {
+	margin-bottom: 1em;
+}
+
+ol, ul {
+	padding-left: 30px;
+	margin-bottom: 1em;
+}
+
+b, strong {
+	font-weight: bold;
+}
+i, em {
+	font-style: italic;
+}
+u {
+	text-decoration: underline;
+}
+abbr, acronym {
+	cursor: help;
+	border-bottom: .1em dotted;
+}
+td, td img { vertical-align: top; }
+sub { vertical-align: sub; font-size: smaller; }
+sup { vertical-align: super; font-size: smaller; }
+
+code {
+	font-family: Courier,"Courier New",Monaco,Tahoma;
+	background: #eee;
+	color: #000;
+	padding: 0px 2px;
+}
+pre {
+	background: #eee;
+	padding: 20px;
+	margin-bottom: 1em;
+}
+blockquote {
+	font-style: italic;
+	margin: 0 0 1em 15px;
+	padding-left: 10px;
+	border-left: 5px solid #000;
+}
+
+/* hand cursor on clickable input elements */
+label, input[type=button], input[type=submit], button { cursor: pointer; }
+/* make buttons play nice in IE:   
+    www.viget.com/inspire/styling-the-button-element-in-internet-explorer/ */
+button {  width: auto; overflow: visible; }
+
+.page-title {
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+.page-subtitle {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.nav {
+	text-align: center;
+	margin: 0 auto;
+	color: #D4D4D4;
+}
+
+.nav .navItem {
+	-moz-transition: color 0.8s ease;
+	-webkit-transition: color 0.8s ease;
+	-o-transition: color 0.8s ease;
+	transition: color 0.8s ease;	
+	margin-right: 10px;
+	color: #8b8a8c;
+	font-size: 1.3em;
+}
+
+.nav .navItem:hover {
+	color: #535253;
+	text-shadow: -1px -1px 1px black;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.footer .copyright {
+    color: #D4D4D4;
+}
+.footer a {
+    -moz-transition: color 0.8s ease;
+    -webkit-transition: color 0.8s ease;
+    -o-transition: color 0.8s ease;
+    transition: color 0.8s ease;
+    -moz-transition: text-shadow 0.8s ease;
+    -webkit-transition: text-shadow 0.8s ease;
+    -o-transition: text-shadow 0.8s ease;
+    transition: text-shadow 0.8s ease;
+}
+.footer .copyright a { color: #bbb; }
+.footer .copyright a:hover { color: #666; }
+
+
+
