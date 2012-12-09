@@ -50,7 +50,7 @@
     -webkit-transform: translate3d(-30px, 0, 0);
     -moz-transform: translate(-30px, 0);
 }
-.slider .slide.inverted .content {
+.slider .slide.dark .content {
     left: auto;
     right: 50%;
     margin-left: 0;
@@ -75,7 +75,7 @@
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate(0, 0);
 }
-.slider .slide.inverted .asset {
+.slider .slide.dark .asset {
     left: auto;
     right: 50%;
 }
@@ -83,7 +83,7 @@
     -webkit-transform: translate3d(-7px, 3px, 0);
     -moz-transform: translate(-7px, 3px);
 }
-.slider .slide.inverted.active .asset {
+.slider .slide.dark.active .asset {
     -webkit-transform: translate3d(7px, 3px, 0);
     -moz-transform: translate(7px, 3px);
 }
